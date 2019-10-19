@@ -19,10 +19,15 @@ public class StringMethods {
 		//    HINT: use .length() to determine how many loops
 				for(int i =0; i< string.length(); i++) {
 					System.out.println(string.charAt(i));
-					
 				}
 		
 		// 5. Pick a char inside your String, and use a loop to determine
+				for(int i =0; i< string.length(); i++) {
+					if(string.charAt(i)=='c') {
+						System.out.print(i);
+						
+					}
+				}
 		//    what position/index in the String the char is located.
 		//    Print the char's position to the console.
 		//    EXAMPLE: if your string is "abc" and you are searching 
